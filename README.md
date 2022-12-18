@@ -8,8 +8,7 @@ a simple demo of WASM using C lang
 
 ## How to compile
 
-- Run `emcc math.c -o math.wasm` to compile to WASM
-- Run `emcc math.c -o output.html` to output as HTML
+- Run `emcc math.c -o math.js -sMODULARIZE -sEXPORTED_RUNTIME_METHODS=ccall`
 
 ## Author
 
